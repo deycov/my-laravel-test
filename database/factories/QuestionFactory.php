@@ -17,7 +17,8 @@ class QuestionFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            // content
+            'content'  => fake()->paragraphs(3,true)
         ];
     }
 }
